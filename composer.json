@@ -1,0 +1,11 @@
+{
+    "name": "ciit/php-demo",
+    "autoload": {
+        "psr-4": {
+            "Ciit\\PhpDemo\\": "src/"
+        }
+    },
+    "require": {
+        "cocur/slugify": "^4.6"
+    }
+}
