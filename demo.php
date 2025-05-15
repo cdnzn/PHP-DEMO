@@ -1,8 +1,11 @@
 <?php
 // Odd or Even
 $num = readline("Enter a number: ");
-if ($num % 2 == 0) {
-    echo $num , " is Even\n";
-} else {
-    echo $num , " is Odd\n";
+
+// Optimzed if-else
+$result = "Even";
+
+if ($num % 2 != 0) {
+    $result = "Odd";
 }
+echo "The number is: $result";
